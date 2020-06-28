@@ -1,13 +1,13 @@
 <template>
-  <h1>侯建阳nb</h1>
+  <div id="app">
+    <!-- 路由占位符，用于展示对应路由下的页面 -->
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>
